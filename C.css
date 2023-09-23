@@ -46,11 +46,11 @@
     opacity: 0.8;
 }
 
-/*scan*/
+/*home*/
 #home
 {
     color:white;
-    height:48vh;
+    /*height:48vh;*/
     display:flex;
     flex-direction:column;
     justify-content:center; 
@@ -73,9 +73,10 @@
 {
     background: rgb(180, 86, 86);
     font-weight: bold;
-    border-radius:1vh;
+    border-radius:1.5vh;
     color: white;
     flex: 1 3 10px;
+    padding: 2vh;
 }
 #home button:hover
 {
@@ -100,16 +101,16 @@
 #service 
 {
     color:black;
-    height:67vh;
+    /*height:67vh;*/
     display:flex;
     flex-direction:column;
     justify-content:center; 
     align-items: center;
 }
-#service h1
+/*#service h1
 {
     height: 20%;
-}
+}*/
 #service div
 {
     font-family: 'Andika', sans-serif;
@@ -118,7 +119,7 @@
 
 #container1
 {
-    height: 80%;
+    /*height: 80%;*/
     display:flex;
     flex-direction:row;
     justify-content:center; 
@@ -143,7 +144,7 @@
 .box img
 {
     width:33%;
-    height: 33%;
+    /*height: 33%;*/
 }
 .h-secondary
 {
@@ -160,18 +161,18 @@
 
 #clients-section
 {
-    /*border: solid rgb(216, 53, 53);*/
-    position:static;
-    height:70vh;
+    border: solid rgb(216, 53, 53);
+    position:relative;
+    /*height:70vh;*/
     display: flex;
     flex-direction:column ;
     justify-content:center; 
     align-items: center;
 }
-#clients-section h1
+/*#clients-section h1
 {
     height: 20%;
-}
+}*/
 #clients-section::before{
     content: "";
     position: absolute;
@@ -204,8 +205,9 @@
 #contact
 {
     position:relative;
-    /*border: solid rgb(216, 53, 53);*/
-    height:80vh;
+    /*border: solid rgb(216, 53, 53);/*
+    /*height:80vh;*/
+
 }
 #contact h1
 {
@@ -214,26 +216,26 @@
     text-align: center;
 }
 #contact-box{
-    border: solid rgb(216, 53, 53);
+    /*border: solid rgb(216, 53, 53);*/
     height:80%;
     display: flex;
     align-items: center;
     padding-bottom: 34px;
 }
-#contact-box input{
-    height:5%;
+#contact-box input,#contact-box textarea{
+    /*height:5%;*/
     width: 100%;
     padding: 0.5rem;
     border-radius: 2vh;
     font-size: 1.1rem;
 } 
-#contact-box textarea{
+/* #contact-box textarea{
     height:30%;
     width: 100%;
     padding: 0.5rem;
     border-radius: 2vh;
     font-size: 1.1rem;
-} 
+} */
 #contact::before{
     content: "";
     position: absolute;
@@ -244,3 +246,16 @@
     z-index: -1;
     opacity: 0.3;
    }
+
+   /*footer*/
+   footer
+   {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 2vh;
+   }
+
+   html{
+    scroll-behavior: smooth;
+}
